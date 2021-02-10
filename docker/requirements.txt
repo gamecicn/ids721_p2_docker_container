@@ -1,0 +1,4 @@
+certifi==2020.12.5
+olefile==0.46
+Pillow @ file:///C:/ci/pillow_1609786840597/work
+wincertstore==0.2
