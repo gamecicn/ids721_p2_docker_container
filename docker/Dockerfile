@@ -6,14 +6,15 @@ COPY ./requirements.txt ./
 
 RUN pip install --no-cache-dir -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple/
 
-COPY  ../scripts/draw.py   ./
+COPY  ./scripts/draw.py   ./
+
+RUN chmod 755 ./draw.py
 
  
 WORKDIR /usr/src/app
 
 
-#CMD [ "python", "./manage.py",  "runserver", "--noreload", "0.0.0.0:80" ]
-
+CMD [ "python", "./draw.py"]
 
 
 
