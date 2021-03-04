@@ -39,7 +39,7 @@ docker push gameci/chardrawer:1.0.0
 
 ##### 4 Check the result on Docker Hub web page
 
-<img src="C:\D\MIDS\IDS 721 Cloud Computing\indivial projects\p2_container\ids721_p2_docker_container\img\dockerhub.png" alt="dockerhub" style="zoom:75%;" />
+<img src=".\img\dockerhub.png" alt="dockerhub" style="zoom:75%;" />
 
 
 
