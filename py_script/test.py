@@ -1,0 +1,1 @@
+list(map(lambda a: print(a),  enumerate([10,6,8]) ))
